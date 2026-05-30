@@ -1180,7 +1180,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -3346111382260560440, guid: 649872556655c463eb7c07dfa5a690b6, type: 2}
   m_audioClip: {fileID: 8300000, guid: b8ce8301f98ac4f51902e94aae6b4dd7, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3778,6 +3778,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioMixerGroup: {fileID: 24300002, guid: 649872556655c463eb7c07dfa5a690b6, type: 2}
   _toggleOnOff: {fileID: 2080602531}
+  _audioSource: {fileID: 1068121454}
+  _slider: {fileID: 1611641462}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
